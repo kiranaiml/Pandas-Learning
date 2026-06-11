@@ -1,37 +1,39 @@
-# Pandas Learning 📊
-
-This repository contains my Pandas learning journey for Data Analysis and AI/ML preparation.
+# Pandas Learning Journey
 
 ## Topics Covered
 
-- Pandas Series
-- Pandas DataFrame
-- Reading CSV files
-- head(), tail()
-- info(), describe()
-- Selecting rows and columns
-- loc[] and iloc[]
-- Filtering data
-- Sorting data
-- Handling missing values
-- GroupBy
-- Merge and Join
-- Basic data analysis
+* Creating DataFrames
+* Selecting Columns
+* Using iloc
+* Data Statistics (max, min, mean)
+* Filtering Data
+* Multiple Conditions (&, |)
+* Sorting Data
+* Creating New Columns
+* Unique and Nunique Values
+* Finding Highest and Second Highest Values
 
-## Tools Used
+## Practice Dataset
 
-- Python
-- Pandas
-- VS Code
-- CSV files
+* Employee Data
+* Age Analysis
+* Salary Analysis
+* City-wise Filtering
 
-## Goal
+## Current Progress
 
-My goal is to build a strong foundation in Pandas for Data Science, Machine Learning, and AI/ML Engineering.
+Completed Pandas Basics and Filtering/Sorting Concepts.
 
-## Learning Status
+## Next Topics
 
-Currently learning Pandas step by step and practicing each concept with code.
+* value_counts()
+* groupby()
+* Missing Values
+* Data Cleaning
+* Mini Projects
+
+Learning AI/ML step by step 🚀
+
 
 ## Author
 
