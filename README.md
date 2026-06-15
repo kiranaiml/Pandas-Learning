@@ -1,38 +1,76 @@
-# Pandas Learning Journey
+# 🐼 Pandas Learning Journey
 
-## Topics Covered
+Welcome to my Pandas learning repository!
+
+## 📚 About
+
+This repository contains my Pandas practice programs, exercises, and mini-projects as I learn Data Analysis and Machine Learning.
+
+## 🚀 Topics Covered
+
+### ✅ Basics
 
 * Creating DataFrames
+* Rows and Columns
+* Head and Tail
+* Shape and Columns
+
+### ✅ Data Selection
+
 * Selecting Columns
-* Using iloc
-* Data Statistics (max, min, mean)
-* Filtering Data
-* Multiple Conditions (&, |)
-* Sorting Data
+* Multiple Column Selection
+* Row Selection using `iloc`
+
+### ✅ Data Analysis
+
+* Maximum Value
+* Minimum Value
+* Mean
+* Count
+* Unique Values
+
+### ✅ Filtering
+
+* Conditional Filtering
+* Multiple Conditions
+
+### ✅ Sorting
+
+* Ascending Order
+* Descending Order
+
+### ✅ Data Manipulation
+
 * Creating New Columns
-* Unique and Nunique Values
-* Finding Highest and Second Highest Values
+* Updating Existing Columns
 
-## Practice Dataset
+### 🔄 Currently Learning
 
-* Employee Data
-* Age Analysis
-* Salary Analysis
-* City-wise Filtering
+* GroupBy
 
-## Current Progress
+### 📅 Upcoming Topics
 
-Completed Pandas Basics and Filtering/Sorting Concepts.
-
-## Next Topics
-
-* value_counts()
-* groupby()
 * Missing Values
+* CSV Files
+* Merge & Join
+* Pivot Tables
 * Data Cleaning
-* Mini Projects
+* Pandas Mini Projects
 
-Learning AI/ML step by step 🚀
+## 🛠️ Technologies
+
+* Python
+* Pandas
+* VS Code
+* GitHub
+
+## 🎯 Goal
+
+To master Pandas for Data Analysis, Machine Learning, and AI projects.
+
+---
+
+⭐ Learning one step at a time.
 
 
 ## Author
