@@ -1,76 +1,107 @@
-# 🐼 Pandas Learning Journey
+# 📊 Pandas Learning Journey
 
-Welcome to my Pandas learning repository!
+## About
 
-## 📚 About
-
-This repository contains my Pandas practice programs, exercises, and mini-projects as I learn Data Analysis and Machine Learning.
-
-## 🚀 Topics Covered
-
-### ✅ Basics
-
-* Creating DataFrames
-* Rows and Columns
-* Head and Tail
-* Shape and Columns
-
-### ✅ Data Selection
-
-* Selecting Columns
-* Multiple Column Selection
-* Row Selection using `iloc`
-
-### ✅ Data Analysis
-
-* Maximum Value
-* Minimum Value
-* Mean
-* Count
-* Unique Values
-
-### ✅ Filtering
-
-* Conditional Filtering
-* Multiple Conditions
-
-### ✅ Sorting
-
-* Ascending Order
-* Descending Order
-
-### ✅ Data Manipulation
-
-* Creating New Columns
-* Updating Existing Columns
-
-### 🔄 Currently Learning
-
-* GroupBy
-
-### 📅 Upcoming Topics
-
-* Missing Values
-* CSV Files
-* Merge & Join
-* Pivot Tables
-* Data Cleaning
-* Pandas Mini Projects
-
-## 🛠️ Technologies
-
-* Python
-* Pandas
-* VS Code
-* GitHub
-
-## 🎯 Goal
-
-To master Pandas for Data Analysis, Machine Learning, and AI projects.
+Pandas is a powerful Python library used for data analysis, data cleaning, and data manipulation. It helps work with tables, CSV files, spreadsheets, and real-world datasets efficiently.
 
 ---
 
-⭐ Learning one step at a time.
+## Topics Learned
+
+### DataFrame Basics
+
+* Creating DataFrames
+* Viewing Data
+* head()
+* tail()
+* shape
+* columns
+
+### Data Selection
+
+* Selecting Single Columns
+* Selecting Multiple Columns
+* iloc
+
+### Filtering Data
+
+* Conditional Filtering
+* Multiple Conditions (`&`, `|`)
+
+### Statistical Operations
+
+* max()
+* min()
+* mean()
+* sum()
+* median()
+
+### GroupBy Operations
+
+* Count Records
+* Average Values
+* Maximum Values
+* Minimum Values
+* Sum Values
+
+### Sorting Data
+
+* sort_values()
+* Ascending Order
+* Descending Order
+
+### Column Operations
+
+* Creating New Columns
+* Bonus Calculation
+* Net Salary Calculation
+* Yearly Salary Calculation
+
+### Data Exploration
+
+* unique()
+* nunique()
+* count()
+
+---
+
+## Practice Tasks Completed
+
+* Employee Salary Analysis
+* City-wise Analysis
+* Age Analysis
+* Sorting Records
+* Filtering Records
+* GroupBy Exercises
+* Column Creation Exercises
+
+---
+
+## Current Progress
+
+* Pandas Fundamentals: ~75%
+* Python: Completed
+* NumPy: Completed
+
+---
+
+## Upcoming Topics
+
+* Missing Values (`isnull`, `fillna`, `dropna`)
+* CSV Files (`read_csv`, `to_csv`)
+* Merge & Join
+* Concatenate
+* Pivot Tables
+* Apply Functions
+* Date & Time
+* Mini Projects
+
+---
+
+## Goal
+
+Master Pandas for Data Analysis and build a strong foundation for Machine Learning and AI.
+
 
 
 ## Author
