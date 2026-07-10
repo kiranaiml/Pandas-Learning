@@ -1,102 +1,147 @@
-# 📊 Pandas Learning Journey
+# 🐼 Pandas Learning Journey
 
-## About
+## 📚 About
 
-Pandas is a powerful Python library used for data analysis, data cleaning, and data manipulation. It helps work with tables, CSV files, spreadsheets, and real-world datasets efficiently.
+This repository contains my hands-on Pandas practice while learning Data Analysis and preparing for AI/ML. Every practice set focuses on understanding concepts through coding instead of only reading theory.
 
 ---
 
-## Topics Learned
+## ✅ Topics Completed
 
 ### DataFrame Basics
 
 * Creating DataFrames
-* Viewing Data
-* head()
-* tail()
-* shape
-* columns
+* Viewing DataFrames
+* `head()`
+* `tail()`
+* `shape`
+* `columns`
+* `info()`
 
 ### Data Selection
 
-* Selecting Single Columns
-* Selecting Multiple Columns
-* iloc
+* Selecting single and multiple columns
+* Row selection using `iloc`
+* Slicing rows and columns
 
-### Filtering Data
+### Filtering
 
-* Conditional Filtering
-* Multiple Conditions (`&`, `|`)
+* Single conditions
+* Multiple conditions (`&`, `|`)
+* Boolean indexing
 
-### Statistical Operations
+### Statistics
 
-* max()
-* min()
-* mean()
-* sum()
-* median()
+* `max()`
+* `min()`
+* `mean()`
+* `sum()`
+* `count()`
+* `median()`
+* `unique()`
 
-### GroupBy Operations
+### Sorting
 
-* Count Records
-* Average Values
-* Maximum Values
-* Minimum Values
-* Sum Values
+* Sort by one column
+* Sort by multiple columns
+* Ascending and descending order
 
-### Sorting Data
+### GroupBy
 
-* sort_values()
-* Ascending Order
-* Descending Order
+* Count
+* Sum
+* Mean
+* Maximum
+* Minimum
 
 ### Column Operations
 
-* Creating New Columns
-* Bonus Calculation
-* Net Salary Calculation
-* Yearly Salary Calculation
+* Add new columns
+* Update existing columns
+* Bonus calculation
+* Tax calculation
+* Net Salary
+* Yearly Salary
 
-### Data Exploration
+### Data Cleaning
 
-* unique()
-* nunique()
-* count()
+* Drop rows
+* Drop columns
+* Rename columns
+* Reset index
 
----
+### CSV Handling
 
-## Practice Tasks Completed
+* Save DataFrame to CSV
+* Read CSV from file
 
-* Employee Salary Analysis
-* City-wise Analysis
-* Age Analysis
-* Sorting Records
-* Filtering Records
-* GroupBy Exercises
-* Column Creation Exercises
+### Missing Values (In Progress)
 
----
-
-## Current Progress
-
-* Pandas Fundamentals: ~75%
-* Python: Completed
-* NumPy: Completed
+* Detect missing values using `isna()`
+* Count missing values
+* Remove missing values using `dropna()`
+* Replace missing values using `fillna()`
 
 ---
 
-## Upcoming Topics
+## 📝 Practice Sets Completed
 
-* Missing Values (`isnull`, `fillna`, `dropna`)
-* CSV Files (`read_csv`, `to_csv`)
-* Merge & Join
-* Concatenate
-* Pivot Tables
+* ✅ Practice Set 1
+* ✅ Practice Set 2
+* ✅ Practice Set 3
+* ✅ Practice Set 4
+* ✅ Practice Set 5
+* ✅ Practice Set 6
+* ✅ Practice Set 7
+* ✅ Practice Set 8
+* ✅ Practice Set 9
+* 🟡 Practice Set 10 (Missing Values - In Progress)
+
+---
+
+## 📈 Current Progress
+
+| Topic               | Status            |
+| ------------------- | ----------------- |
+| Python              | ✅ Completed       |
+| NumPy               | ✅ Completed       |
+| Pandas Fundamentals | 🟢 ~80% Complete  |
+| Missing Values      | 🟡 Learning       |
+| CSV Handling        | ✅ Basic Completed |
+
+---
+
+## 🎯 Next Topics
+
+* Complete Missing Values
+* Duplicate Data
+* Merge DataFrames
+* Concat DataFrames
 * Apply Functions
-* Date & Time
-* Mini Projects
+* Map & Replace
+* Pivot Tables
+* Crosstab
+* Date & Time Handling
+* Real-World Data Cleaning Project
 
 ---
+
+## 🚀 Goal
+
+Complete Pandas with strong practical skills before moving to:
+
+* Matplotlib
+* Seaborn
+* Statistics
+* Machine Learning
+* Deep Learning
+* AI/ML Projects
+
+---
+
+### 💻 Learning by Building
+
+Every concept in this repository is practiced with Python code, solved independently, debugged, and revised to build a strong foundation for Data Science and AI/ML.
 
 ## Goal
 
