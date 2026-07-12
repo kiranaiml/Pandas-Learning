@@ -1,0 +1,6 @@
+Name,Department,Salary,DepartmentCode,TaxRate,TaxAmount
+Vikram,HR,50000,102,8,4000.0
+Rahul,HR,40000,102,8,3200.0
+Anjali,IT,35000,101,10,3500.0
+Priya,Finance,28000,103,5,1400.0
+Kiran,IT,25000,101,10,2500.0
