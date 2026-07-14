@@ -1,156 +1,285 @@
 # 🐼 Pandas Learning Journey
 
-## 📚 About
+Welcome to my Pandas learning repository!
 
-This repository contains my hands-on Pandas practice while learning Data Analysis and preparing for AI/ML. Every practice set focuses on understanding concepts through coding instead of only reading theory.
-
----
-
-## ✅ Topics Completed
-
-### DataFrame Basics
-
-* Creating DataFrames
-* Viewing DataFrames
-* `head()`
-* `tail()`
-* `shape`
-* `columns`
-* `info()`
-
-### Data Selection
-
-* Selecting single and multiple columns
-* Row selection using `iloc`
-* Slicing rows and columns
-
-### Filtering
-
-* Single conditions
-* Multiple conditions (`&`, `|`)
-* Boolean indexing
-
-### Statistics
-
-* `max()`
-* `min()`
-* `mean()`
-* `sum()`
-* `count()`
-* `median()`
-* `unique()`
-
-### Sorting
-
-* Sort by one column
-* Sort by multiple columns
-* Ascending and descending order
-
-### GroupBy
-
-* Count
-* Sum
-* Mean
-* Maximum
-* Minimum
-
-### Column Operations
-
-* Add new columns
-* Update existing columns
-* Bonus calculation
-* Tax calculation
-* Net Salary
-* Yearly Salary
-
-### Data Cleaning
-
-* Drop rows
-* Drop columns
-* Rename columns
-* Reset index
-
-### CSV Handling
-
-* Save DataFrame to CSV
-* Read CSV from file
-
-### Missing Values (In Progress)
-
-* Detect missing values using `isna()`
-* Count missing values
-* Remove missing values using `dropna()`
-* Replace missing values using `fillna()`
+This repository contains my Pandas practice programs, exercises, and projects as I learn Data Analysis with Python.
 
 ---
 
-## 📝 Practice Sets Completed
+# 📌 Current Status
 
-* ✅ Practice Set 1
-* ✅ Practice Set 2
-* ✅ Practice Set 3
-* ✅ Practice Set 4
-* ✅ Practice Set 5
-* ✅ Practice Set 6
-* ✅ Practice Set 7
-* ✅ Practice Set 8
-* ✅ Practice Set 9
-* 🟡 Practice Set 10 (Missing Values - In Progress)
+🟢 **Pandas Progress:** Intermediate Level (Still Learning)
+
+I have completed most of the core Pandas concepts and regularly solve practice problems to strengthen my understanding.
 
 ---
 
-## 📈 Current Progress
+# ✅ Topics Completed
 
-| Topic               | Status            |
-| ------------------- | ----------------- |
-| Python              | ✅ Completed       |
-| NumPy               | ✅ Completed       |
-| Pandas Fundamentals | 🟢 ~80% Complete  |
-| Missing Values      | 🟡 Learning       |
-| CSV Handling        | ✅ Basic Completed |
-
----
-
-## 🎯 Next Topics
-
-* Complete Missing Values
-* Duplicate Data
-* Merge DataFrames
-* Concat DataFrames
-* Apply Functions
-* Map & Replace
-* Pivot Tables
-* Crosstab
-* Date & Time Handling
-* Real-World Data Cleaning Project
+## 📖 DataFrame Basics
+- Creating DataFrames
+- Viewing DataFrames
+- head()
+- tail()
+- shape
+- columns
+- info()
+- describe()
 
 ---
 
-## 🚀 Goal
-
-Complete Pandas with strong practical skills before moving to:
-
-* Matplotlib
-* Seaborn
-* Statistics
-* Machine Learning
-* Deep Learning
-* AI/ML Projects
+## 🎯 Selecting Data
+- Single column selection
+- Multiple column selection
+- iloc
+- loc
+- Row slicing
+- Column slicing
 
 ---
 
-### 💻 Learning by Building
+## 🔍 Filtering Data
+- Single condition
+- Multiple conditions
+- &, |
+- between()
+- isin()
+- Filtering strings
+- Filtering numbers
+- Above average salary
+- Highest salary
+- Lowest salary
 
-Every concept in this repository is practiced with Python code, solved independently, debugged, and revised to build a strong foundation for Data Science and AI/ML.
+---
 
-## Goal
+## 📊 Statistics
+- mean()
+- median()
+- mode()
+- max()
+- min()
+- sum()
+- count()
+- unique()
+- value_counts()
 
-Master Pandas for Data Analysis and build a strong foundation for Machine Learning and AI.
+---
 
+## ✨ Sorting
+- sort_values()
+- ascending=True
+- ascending=False
 
+---
 
+## ➕ Creating New Columns
+- Bonus
+- Tax
+- Net Salary
+- Yearly Salary
+- Updating existing columns
+
+---
+
+## ❌ Deleting Data
+- drop()
+- Drop rows
+- Drop columns
+- inplace=True
+- reset_index()
+
+---
+
+## ⚠ Missing Values
+- isnull()
+- isna()
+- fillna()
+- dropna()
+- Counting missing values
+- Filling with mean
+- Filling with zero
+- Filling text values
+
+---
+
+## 🔁 Duplicate Data
+- duplicated()
+- drop_duplicates()
+- subset
+
+---
+
+## 👥 GroupBy
+- Mean
+- Sum
+- Count
+- Maximum
+- Minimum
+
+---
+
+## 🔗 Merge
+- Inner Merge
+- Left Merge
+- Right Merge
+- Outer Merge
+
+---
+
+## 📎 Concat
+- Vertical Concatenation
+- Horizontal Concatenation
+- ignore_index=True
+
+---
+
+## 🗺 Map
+- map()
+- Dictionary Mapping
+- Creating New Columns
+
+---
+
+## ⚙ Apply
+- apply()
+- lambda
+- Column Calculations
+
+---
+
+## 🔤 String Functions
+- str.upper()
+- str.lower()
+- str.title()
+- str.contains()
+
+---
+
+## 📈 Pivot Table
+- pivot_table()
+- index
+- values
+- columns
+- aggfunc
+- mean
+- sum
+- max
+- min
+- first
+
+---
+
+## 🔄 Melt
+- melt()
+- id_vars
+- value_vars
+- var_name
+- value_name
+
+Example
+
+```python
+df.melt(
+    id_vars="Name",
+    value_vars=["Math","Science"],
+    var_name="Subject",
+    value_name="Marks"
+)
+```
+
+---
+
+## 💾 CSV Files
+
+- to_csv()
+- read_csv()
+- index=False
+
+---
+
+# 🏆 Practice Completed
+
+✅ DataFrame Practice
+
+✅ Filtering Practice
+
+✅ GroupBy Practice
+
+✅ Missing Values Practice
+
+✅ Duplicate Practice
+
+✅ Merge Practice
+
+✅ Concat Practice
+
+✅ Map Practice
+
+✅ Apply Practice
+
+✅ Pivot Table Practice
+
+✅ Melt Practice
+
+---
+
+# ⚡ Common Mistakes I Learned From
+
+- aggfunc="average" ❌
+
+  aggfunc="mean" ✅
+
+- Printing functions with inplace=True
+
+- Incorrect DataFrame filtering
+
+- Wrong use of drop_duplicates()
+
+- Mapping numeric values to string columns
+
+- Confusing Boolean Series with filtered DataFrames
+
+---
+
+# 🎯 Next Topics
+
+- Crosstab
+- Multi Index
+- Date & Time
+- agg()
+- transform()
+- applymap()
+- replace()
+- explode()
+- Real-world Dataset Cleaning
+- Exploratory Data Analysis (EDA)
+
+---
+
+# 🚀 Roadmap After Pandas
+
+- Matplotlib
+- Seaborn
+- Statistics
+- Machine Learning
+- Deep Learning
+- AI Projects
+
+---
+
+# 🎯 Goal
+
+Become a skilled Data Analyst and AI/ML Engineer by mastering Python, Pandas, Machine Learning, and Deep Learning.
+
+---
 ## Author
 
-**Kiran L M**  
-AI/ML Learner  
-GitHub: [kiranaiml](https://github.com/kiranaiml)
+## 👨‍💻 GitHub
+
+**Username:** `kiranaiml`
+
+⭐ Thanks for visiting my repository!
+
+
+
+
