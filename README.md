@@ -1,275 +1,168 @@
 # 🐼 Pandas Learning Journey
 
-Welcome to my Pandas learning repository!
+## 📖 About
 
-This repository contains my Pandas practice programs, exercises, and projects as I learn Data Analysis with Python.
-
----
-
-# 📌 Current Status
-
-🟢 **Pandas Progress:** Intermediate Level (Still Learning)
-
-I have completed most of the core Pandas concepts and regularly solve practice problems to strengthen my understanding.
+This repository contains my complete Pandas learning journey. I practiced each topic with hands-on coding exercises and solved problems to strengthen my data analysis skills.
 
 ---
 
-# ✅ Topics Completed
+## 🚀 Topics Completed
 
-## 📖 DataFrame Basics
-- Creating DataFrames
-- Viewing DataFrames
-- head()
-- tail()
-- shape
-- columns
-- info()
-- describe()
+### 📌 Pandas Basics
 
----
+* ✅ Import Pandas
+* ✅ Series
+* ✅ DataFrame
+* ✅ Creating DataFrames
+* ✅ Reading and Writing CSV Files
 
-## 🎯 Selecting Data
-- Single column selection
-- Multiple column selection
-- iloc
-- loc
-- Row slicing
-- Column slicing
+### 📌 Data Inspection
 
----
+* ✅ `head()`
+* ✅ `tail()`
+* ✅ `info()`
+* ✅ `describe()`
+* ✅ `shape`
+* ✅ `columns`
+* ✅ `index`
+* ✅ `dtypes`
 
-## 🔍 Filtering Data
-- Single condition
-- Multiple conditions
-- &, |
-- between()
-- isin()
-- Filtering strings
-- Filtering numbers
-- Above average salary
-- Highest salary
-- Lowest salary
+### 📌 Data Selection
 
----
+* ✅ Selecting Columns
+* ✅ Selecting Rows
+* ✅ `loc[]`
+* ✅ `iloc[]`
+* ✅ Boolean Indexing
+* ✅ Conditional Filtering
 
-## 📊 Statistics
-- mean()
-- median()
-- mode()
-- max()
-- min()
-- sum()
-- count()
-- unique()
-- value_counts()
+### 📌 Data Manipulation
 
----
+* ✅ Add Columns
+* ✅ Update Values
+* ✅ Rename Columns
+* ✅ Drop Rows
+* ✅ Drop Columns
+* ✅ Sorting Data
+* ✅ Reset Index
 
-## ✨ Sorting
-- sort_values()
-- ascending=True
-- ascending=False
+### 📌 Missing Data
 
----
+* ✅ `isnull()`
+* ✅ `notnull()`
+* ✅ `fillna()`
+* ✅ `dropna()`
 
-## ➕ Creating New Columns
-- Bonus
-- Tax
-- Net Salary
-- Yearly Salary
-- Updating existing columns
+### 📌 Duplicate Data
 
----
+* ✅ `duplicated()`
+* ✅ `drop_duplicates()`
 
-## ❌ Deleting Data
-- drop()
-- Drop rows
-- Drop columns
-- inplace=True
-- reset_index()
+### 📌 String Operations
 
----
+* ✅ `str.upper()`
+* ✅ `str.lower()`
+* ✅ `str.title()`
+* ✅ `str.replace()`
+* ✅ `str.contains()`
 
-## ⚠ Missing Values
-- isnull()
-- isna()
-- fillna()
-- dropna()
-- Counting missing values
-- Filling with mean
-- Filling with zero
-- Filling text values
+### 📌 Mapping & Replacing
 
----
+* ✅ `map()`
+* ✅ `replace()`
+* ✅ `apply()`
 
-## 🔁 Duplicate Data
-- duplicated()
-- drop_duplicates()
-- subset
+### 📌 Grouping & Aggregation
 
----
+* ✅ `groupby()`
+* ✅ `sum()`
+* ✅ `mean()`
+* ✅ `max()`
+* ✅ `min()`
+* ✅ `count()`
+* ✅ `size()`
 
-## 👥 GroupBy
-- Mean
-- Sum
-- Count
-- Maximum
-- Minimum
+### 📌 Combining Data
+
+* ✅ `concat()`
+* ✅ `merge()`
+* ✅ Inner Join
+* ✅ Left Join
+* ✅ Right Join
+* ✅ Outer Join
+
+### 📌 Reshaping Data
+
+* ✅ `pivot_table()`
+* ✅ `melt()`
+* ✅ `crosstab()`
+
+### 📌 File Handling
+
+* ✅ `read_csv()`
+* ✅ `to_csv()`
 
 ---
 
-## 🔗 Merge
-- Inner Merge
-- Left Merge
-- Right Merge
-- Outer Merge
+## 💻 Practice
+
+I solved multiple practice questions covering:
+
+* Data Cleaning
+* Data Filtering
+* Aggregation
+* Employee Dataset Analysis
+* Student Dataset Analysis
+* Salary Analysis
+* Merge Operations
+* Pivot Tables
+* Melt Operations
+* Crosstab Analysis
 
 ---
 
-## 📎 Concat
-- Vertical Concatenation
-- Horizontal Concatenation
-- ignore_index=True
+## 🎯 Skills Gained
+
+* Data Cleaning
+* Data Transformation
+* Data Analysis
+* Data Aggregation
+* Data Reshaping
+* Working with CSV Files
+* Preparing Data for Visualization
+* Preparing Data for Machine Learning
 
 ---
 
-## 🗺 Map
-- map()
-- Dictionary Mapping
-- Creating New Columns
+## 🛠️ Technologies Used
+
+* Python 3
+* Pandas
+* VS Code
 
 ---
 
-## ⚙ Apply
-- apply()
-- lambda
-- Column Calculations
+## 📈 Learning Path
+
+* ✅ Python
+* ✅ NumPy
+* ✅ Pandas
+* ⏳ Matplotlib
+* ⏳ Seaborn
+* ⏳ Statistics
+* ⏳ Scikit-learn
+* ⏳ Deep Learning
+* ⏳ AI/ML Projects
 
 ---
 
-## 🔤 String Functions
-- str.upper()
-- str.lower()
-- str.title()
-- str.contains()
+## 🌟 Goal
+
+My goal is to become a skilled AI/ML Engineer by building a strong foundation in Python, data analysis, visualization, machine learning, and deep learning.
 
 ---
 
-## 📈 Pivot Table
-- pivot_table()
-- index
-- values
-- columns
-- aggfunc
-- mean
-- sum
-- max
-- min
-- first
-
----
-
-## 🔄 Melt
-- melt()
-- id_vars
-- value_vars
-- var_name
-- value_name
-
-Example
-
-```python
-df.melt(
-    id_vars="Name",
-    value_vars=["Math","Science"],
-    var_name="Subject",
-    value_name="Marks"
-)
-```
-
----
-
-## 💾 CSV Files
-
-- to_csv()
-- read_csv()
-- index=False
-
----
-
-# 🏆 Practice Completed
-
-✅ DataFrame Practice
-
-✅ Filtering Practice
-
-✅ GroupBy Practice
-
-✅ Missing Values Practice
-
-✅ Duplicate Practice
-
-✅ Merge Practice
-
-✅ Concat Practice
-
-✅ Map Practice
-
-✅ Apply Practice
-
-✅ Pivot Table Practice
-
-✅ Melt Practice
-
----
-
-# ⚡ Common Mistakes I Learned From
-
-- aggfunc="average" ❌
-
-  aggfunc="mean" ✅
-
-- Printing functions with inplace=True
-
-- Incorrect DataFrame filtering
-
-- Wrong use of drop_duplicates()
-
-- Mapping numeric values to string columns
-
-- Confusing Boolean Series with filtered DataFrames
-
----
-
-# 🎯 Next Topics
-
-- Crosstab
-- Multi Index
-- Date & Time
-- agg()
-- transform()
-- applymap()
-- replace()
-- explode()
-- Real-world Dataset Cleaning
-- Exploratory Data Analysis (EDA)
-
----
-
-# 🚀 Roadmap After Pandas
-
-- Matplotlib
-- Seaborn
-- Statistics
-- Machine Learning
-- Deep Learning
-- AI Projects
-
----
-
-# 🎯 Goal
-
-Become a skilled Data Analyst and AI/ML Engineer by mastering Python, Pandas, Machine Learning, and Deep Learning.
+### ⭐ If you found this repository helpful, consider giving it a star!
 
 ---
 ## Author
